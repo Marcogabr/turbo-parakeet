@@ -1,0 +1,30 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header" style="background-color: #F2C464;"> <!-- darker shade of yellow for header -->
+      <h2>chat do Gabriel</h2>
+      <h3>estou sempre pronto pra atende-los</h3>
+
+    </div>
+    <div class="chat-messages" style="background-color: #F7DC6F;"> <!-- lighter shade of yellow for background -->
+      <ul id="messages">
+        <!-- messages will be rendered here -->
+      </ul>
+    </div>
+    <div class="chat-input">
+      <input type="text" id="message-input" placeholder="Digite sua mensagem...">
+      <button id="send-button" style="background-color: #333; color: #fff;">Enviar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
